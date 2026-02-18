@@ -1,0 +1,60 @@
+# Peaq Network Grant Application - Traffix Node
+
+## 1. Project Overview
+
+**Project Name:** Traffix Node
+**Tagline:** The most scalable decentralized VPN & Residential Proxy Network on Telegram (DePIN).
+**Website:** https://traffix.uz/
+
+## 2. Project Description (The Pitch)
+
+Traffix Node is a fully operational DePIN (Decentralized Physical Infrastructure Network) that transforms any Android smartphone into a high-performance residential proxy node. Built on a robust Go backend and leveraging Telegram's 900M+ user base for friction-less onboarding, we solve the IP scarcity problem while providing passive income to users.
+
+Unlike traditional VPNs, Traffix Node is community-owned. Users run the node app, share their unused bandwidth, and earn rewards. The network is powered by a high-throughput backend capable of handling millions of concurrent connections, secured by modern encryption and authenticated via Telegram.
+
+We are 100% live with a production-ready Android app, Admin Panel, and Billing System. We are now ready to integrate with Peaq Network to tokenize our bandwidth economy and scale globally.
+
+## 3. Why Peaq Network?
+
+We chose Peaq because it is the home of DePIN. We want to:
+1.  **Mint Machine IDs:** Assign a unique Peaq ID to every Android device in our network.
+2.  **On-chain Rewards:** Migrate our current off-chain billing to Peaq's blockchain for transparent, trustless payouts using **$PEAQ** or our future native token.
+3.  **Economy:** Leverage Peaq's modular DePIN functions for Machine-to-Machine (M2M) verification and data integrity.
+
+## 4. Technical Architecture
+
+*   **Mobile Node (Edge):** Native Android App (Kotlin) that acts as a secure SOCKS5/HTTP tunnel.
+*   **Backend (Core):** High-performance Golang server using `fasthttp` and WebSocket tunnels. Optimized for 10k+ concurrent connections per core.
+*   **Database:** PostgreSQL (TimescaleDB structure) for logs and Redis for hot session management.
+*   **Integrations:** Telegram Auth (for seamless user onboarding) & NOWPayments (Crypto Payouts).
+*   **Protocol:** Custom secure tunnel protocol (v2) with obfuscation to bypass DPI.
+
+## 5. Current Traction
+
+*   **Status:** Mainnet / Live Beta.
+*   **Users:** +100 active nodes.
+*   **Traffic:** +10GB traffic routed.
+*   **Features:**
+    *   ✅ One-tap Node Activation.
+    *   ✅ Real-time Earnings Dashboard.
+    *   ✅ Automated Payout System via Crypto (USDT).
+
+## 6. The Ask (Grant Request)
+
+We are requesting an Ecosystem Grant to:
+1.  **Integrate Peaq SDK:** Port our node identity and rewards system to Peaq Layer-1.
+2.  **Scale Infrastructure:** Expand our relay servers to support 100,000+ nodes.
+3.  **User Acquisition:** Marketing campaign within the Peaq ecosystem.
+
+**Milestones:**
+*   **Month 1:** Integrate Peaq Agent (Go SDK) into Traffix Node.
+*   **Month 2:** Launch "Traffix on Peaq" Incentive Program (Airdrop for node runners).
+*   **Month 3:** Reach 10,000 Active Nodes on Peaq Mainnet.
+
+## 7. Team
+
+Ozodboyev Bunyodbek
+*Core Developer & Founder*
+Experienced in Golang, Android Development, and Network Infrastructure.
+
+---
