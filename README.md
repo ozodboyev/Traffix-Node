@@ -37,5 +37,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🔗 Links
 
-*   **Website:** [https://traffix.uz/]
-*   **Grant Proposal:** [Peaq Network]
+*   **Website:** https://traffix.uz
+*   **Grant Proposal:** Peaq Network
