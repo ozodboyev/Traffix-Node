@@ -31,10 +31,6 @@ It is built with **Kotlin** and **Jetpack Compose**.
 
 We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or proposing new features. Please read `CONTRIBUTING.md` for details.
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🔗 Links
 
 *   **Website:** https://traffix.uz
